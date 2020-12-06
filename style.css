@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Metropolis';
-	src: url('bpmono/BPmono.ttf');
+	src: url('BPmono.ttf');
 }
 @font-face {
 	font-family: 'Metropolis-medium';
-	src: url('bpmono/BPmonoBold.ttf');
+	src: url('BPmonoBold.ttf');
 }
 
 @keyframes intoview {
