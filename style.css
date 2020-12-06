@@ -58,11 +58,11 @@ header {
 }
 
 canvas.dots {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 1300px;
+	height: 100%;
 	z-index: -10000;
 	background: #221122;
 
