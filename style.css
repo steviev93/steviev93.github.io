@@ -128,20 +128,20 @@ h3{
 #pabout {
     position: absolute;
     margin-left: 40%;
-  	top:0; 
-  	right: 0;
-  	min-width: 60%;
-  	height: 85.6%;
-  	font-family: "Metropolis";
-  	font-size: 18px;
-  	
-  	background: linear-gradient(to right, rgba(255, 255, 255,1.0) 33%, rgba(255, 255, 255,0.3)); /* Black background with 0.5 opacity */
-  	color: black; /* Grey text */
-  	padding: 80px 0px 0px 10px; /* Some padding */
+	top:0; 
+	right: 0;
+	min-width: 60%;
+	height: 85.6%;
+	font-family: "Metropolis";
+	font-size: 18px;
 
-  	line-height: 1.4;
-  	
-  	overflow: auto;
+	background: linear-gradient(to right, rgba(255, 255, 255,1.0) 33%, rgba(255, 255, 255,0.3)); /* Black background with 0.5 opacity */
+	color: black; /* Grey text */
+	padding: 80px 0px 0px 10px; /* Some padding */
+
+	line-height: 1.4;
+
+	overflow: auto;
 
 }
 
@@ -259,8 +259,8 @@ footer {
   position: relative;
   float: right;
   width: 40%;
-  top: 40px;
-  right: 100px;
+  top: 10%;
+  right: 15%;
   
 }
 
