@@ -1,5 +1,7 @@
-<p style="font-size: 5em; line-height: .6em;">AWS Certified Cloud Practitioner</p>
-<p>January 2022 - January 2025</p>
-<br>
-<p style="font-size: 5em; line-height: .6em;">Coursera: Deep Learning Specialization</p>
-<p>June 2020</p>
+<div *ngFor="let cert of certifications">
+    <p style="font-size: 5em; line-height: .6em;">{{cert.title}}</p>
+    <p>{{cert.exDate}}</p>
+    <br>
+</div>
+
+
