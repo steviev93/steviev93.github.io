@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "cloude";
+  background: linear-gradient(to left, RGB(57, 100, 20), rgb(41, 41, 41) 7%, rgb(41, 41, 41) 93%, rgb(41, 41, 41) 93%, RGB(57, 100, 20) 100%);
+  height: 100%
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: RGB(57, 255, 20);
+  font-size: 4em;
+}
+
+@font-face {
+    font-family: "cloude";
+    src: local("cloude"), url(./assets/fonts/cloude/Cloude_Regular_1.02.ttf) format("truetype");
+}
+html {
+    height:100%
+}

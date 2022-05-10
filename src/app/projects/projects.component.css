@@ -1,0 +1,35 @@
+.carousel .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: RGB(57, 255, 20);
+    text-shadow: 0px 0px 5px RGB(57, 255, 20);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20em;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+
+  background-image: none;
+}
+p {
+    line-height: .4em; 
+    height: 2em;
+    text-align: center;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 10em;
+  color: RGB(57, 255, 20);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 10em;
+  color: RGB(57, 255, 20);
+}

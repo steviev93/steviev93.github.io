@@ -1,0 +1,79 @@
+.title {
+    width:100%;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    color: RGB(57, 255, 20);
+    text-shadow: 0px 0px 15px RGB(57, 255, 20);
+    font-size: 1.7em;
+    margin:0;
+    line-height: 120%;
+  }
+  hr {
+    border: none;
+    display:block;
+    width: 96%;               
+    background-color:RGB(57, 255, 20);
+    height: 2px;
+    filter: blur(.2em);
+  }
+  .typewriter {
+    border-right: 4px solid RGB(57, 255, 20);
+    margin-top:2%; 
+    height:0.4em; 
+    line-height: .4em;
+    display: inline-block; 
+    vertical-align: center;
+  }
+  .title:hover {
+    animation: .5s textHover forwards;
+    cursor: pointer;
+  }
+
+  li a {
+    color: RGB(57, 255, 20);
+    background-color: rgb(41, 41, 41);
+    text-shadow: 0px 0px 5px RGB(57, 255, 20);
+    font-size: 3.5em;
+    line-height: 40%;  
+}
+  .fade-in {
+    animation: 1.8s fade-in cubic-bezier(.25,1,.5,1) backwards;
+    animation-delay: 2s;
+}
+
+.blink_me {
+    animation: blinker .7s steps(1, start) infinite;
+  }
+  
+@keyframes blinker {
+    50% {
+      border-color: transparent;
+    }
+  }
+@keyframes fade-in {
+    from {
+        opacity:0%;
+    }
+    to {
+        opacity:100%;
+    }
+}
+a:hover {
+    animation: .5s textHover forwards;
+}
+@keyframes textHover {
+    from {
+        color: RGB(57, 255, 20);
+    }
+    to {
+        color: white;
+    }
+}
+a .active {
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hide { display:none }
+
+  }

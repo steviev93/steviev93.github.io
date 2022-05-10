@@ -1,0 +1,39 @@
+<div routerLink="/" class="title"style="max-width:100%;">
+    <p  class="typewriter blink_me" onload="loadName()">{{title}}</p>
+    <p class="fade-in" style="font-size:3em; padding:0;">Software Developer</p>
+  </div>
+  <nav
+    class="navbar-expand-lg mx-auto"
+    style="background-color:rgb(41, 41, 41); padding-top:0; text-align: center;"
+  >
+    <button
+      class="navbar-toggler mx-auto"
+      type="button"
+      (click)="onClick()"
+    >
+    <div>
+      <i *ngIf="!menuShowing" class="fa fa-angle-double-down" style="color: RGB(57, 255, 20);"></i>
+      <i *ngIf="menuShowing" class="fa fa-angle-double-up" style="color: RGB(57, 255, 20);"></i>
+    </div>
+ 
+    </button>
+    <div [ngClass]="{'hide': !menuShowing}"
+      class="navbar-collapse"
+      id="navbarNav"
+      style="background-color:rgb(41, 41, 41); padding-top:0;"
+    >
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLinkActive="active" routerLink="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <hr style="width: 100%; color: white; text-shadow: 0px 0px 15px RGB(57, 255, 20);">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">  

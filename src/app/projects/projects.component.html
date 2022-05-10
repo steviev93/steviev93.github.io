@@ -1,0 +1,25 @@
+<ng-container *ngFor="let project of projects; let p = index">
+  <div id="carouselExampleIndicators{{p}}" class="carousel slide" data-ride="carousel" >
+    <ol class="carousel-indicators">
+      <ng-container *ngFor="let image of project.images; let i = index">
+        <li [ngClass]="{'active': i == 0}" data-target="#carouselExampleIndicators" style="color: RGB(57, 255, 20)" data-slide-to="i" class="active"></li>
+      </ng-container>
+    </ol>
+    <div class="carousel-inner">
+      <ng-container *ngFor="let image of project.images; let i = index">
+        <div class="carousel-item" [ngClass]="{'active': i == 0}">
+          <img class="d-block mx-auto" src="{{image}}" alt="Image {{i}}" style="max-height: 20em; max-width:100%">
+        </div>
+      </ng-container>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators{{p}}" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" style="color: RGB(57, 255, 20)" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators{{p}}" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <p >{{project.about}}</p>
+  </div>
+</ng-container>
