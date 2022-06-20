@@ -18,8 +18,6 @@ export class ProjectsComponent implements OnInit {
       "https://raw.githubusercontent.com/steviev93/POS/master/Screen%20Shot%202021-12-17%20at%205.17.44%20PM.png"
     ]},
     {about:"Final project for school. POC of a business called Valente's Pizza. This was built using C#, .NET Core, Angular, Entity Framework Core, and SQL Server. Code review of the initial project I reworked: https://www.youtube.com/watch?v=MQ5GnWyXU-U", images: [
-      "https://raw.githubusercontent.com/steviev93/ValentesPizzaAdmin/master/AdminProductGroups.jpg",
-      "https://raw.githubusercontent.com/steviev93/ValentesPizzaClient/main/VisitorPage.jpg",
       "https://raw.githubusercontent.com/steviev93/ValentesPizzaClient/main/OrderScreen.png",
       "https://raw.githubusercontent.com/steviev93/ValentesPizzaAdmin/master/AdminAddProduct.png",
       "https://raw.githubusercontent.com/steviev93/ValentesPizzaAdmin/master/AdminLogin.png"
